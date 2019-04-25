@@ -32,6 +32,10 @@ fieldset { background-color: #302f30; border: none; margin: 5px; border-radius: 
 
 .btn { text-align: center; }
 
+.dropper { text-align: center; color: white; text-decoration: none; }
+
+#task li { text-decoration: none; }
+
 .valider { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; }
 
 .q { margin-right: 5px; }

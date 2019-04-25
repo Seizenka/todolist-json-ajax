@@ -18,17 +18,15 @@ let ajax_get = (url, callback) => {
   };
   
   ajax_get("todo.json", data => {
-    //   document.getElementById("task").innerHTML = data["name"];
     console.log(data);
-    //   let html = "<h2>" + data["name"] + "</h2>";
     let html = "<ul>";
     let task = "<ul>";
     for (let i = 0; i < data.length; i++) {
       console.log(data[i]["statut"]);
       if (data[i]["statut"] === false) {
-        html += "<li>" + data[i]["name"] + "</li>";
+        html += "<li><input name='check' type='checkbox'>" + data[i]["name"] + "</li>";
       } else {
-        task += "<li>" + data[i]["name"] + "</li>";
+        task += "<li><input name='check' type='checkbox'>" + data[i]["name"] + "</li>";
       }
     }
     html += "</ul>";
@@ -36,5 +34,6 @@ let ajax_get = (url, callback) => {
     console.log(task);
     document.getElementById("task").innerHTML = task;
     document.getElementById("archive").innerHTML = html;
+    document.getElementById("archive").style.textDecoration = "line-through";
   });
   

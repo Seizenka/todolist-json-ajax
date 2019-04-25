@@ -1,6 +1,5 @@
 <?php
     include 'update.php';
-    include 'formulaire.php';
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +39,7 @@
     <fieldset class="form">
         <form action="index.php" method="POST">
             <label for="task">La tâche à ajouter</label>
-            <input class="rajout" name="task" type="text" required placeholder="rajouter une tâche">
+            <input class="rajout" name="tache" type="text" required placeholder="rajouter une tâche">
             <input class="ajout" type="submit" value="ajouter" name="ajout">
         </form>
     </fieldset>
