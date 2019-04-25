@@ -1,4 +1,5 @@
 <?php
+    include 'formulaire.php';
     include 'update.php';
 ?>
 
