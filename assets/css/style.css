@@ -24,7 +24,7 @@ fieldset { background-color: #302f30; border: none; margin: 5px; border-radius: 
 
 .rajout { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; }
 
-.sup { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; width: 15%; }
+.supprimer { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; width: 15%; }
 
 .archive { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; width: 15%; }
 
@@ -34,7 +34,7 @@ fieldset { background-color: #302f30; border: none; margin: 5px; border-radius: 
 
 .dropper { text-align: center; color: white; text-decoration: none; }
 
-#task li { text-decoration: none; }
+ul { list-style-type: none; }
 
 .valider { background-color: #6a08a3; border: none; border-radius: 10px; padding: 10px; color: white; }
 

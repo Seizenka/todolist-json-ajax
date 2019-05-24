@@ -24,9 +24,9 @@ let ajax_get = (url, callback) => {
     for (let i = 0; i < data.length; i++) {
       console.log(data[i]["statut"]);
       if (data[i]["statut"] === false) {
-        html += "<li><input name='check[]' value='" + data[i]["name"] +"' type='checkbox'>" + data[i]["name"] + "</li>";
+        html += "<li><input name='check[]' value='" + data[i]["name"] +"' type='checkbox'/>" + data[i]["name"] + "</li>";
       } else {
-        task += "<li><input name='check[]' value='" + data[i]["name"] +"' type='checkbox'>" + data[i]["name"] + "</li>";
+        task += "<li><input name='check[]' value='" + data[i]["name"] +"' type='checkbox'/>" + data[i]["name"] + "</li>";
       }
     }
     html += "</ul>";

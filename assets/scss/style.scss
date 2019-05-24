@@ -70,7 +70,7 @@ fieldset {
     color: white;
 }
 
-.sup {
+.supprimer {
     background-color : rgb(106, 8, 163);
     border: none;
     border-radius: 10px;
@@ -107,8 +107,8 @@ fieldset {
     text-decoration: none;
 }
 
-#task li {
-    text-decoration: none;
+ul {
+    list-style-type: none; 
 }
 
 .valider {
